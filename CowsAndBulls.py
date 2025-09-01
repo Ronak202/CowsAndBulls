@@ -11,7 +11,7 @@ def cows_and_bulls(secret, guess):
     cows = sum(secret[i] == guess[i] for i in range(4))
     bulls = sum((guess[i] in secret) and (guess[i] != secret[i]) for i in range(4))
     return cows, bulls
-
+#Task for SLC-4 and SLC-5
 def main():
     print("Welcome to the Cows and Bulls Game!")
     secret_number = generate_number()
