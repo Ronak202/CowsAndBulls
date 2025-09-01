@@ -1,5 +1,5 @@
 import random
-
+# Task: SLC-2 and SLC-3 - Implemented generate_number() and cows_and_bulls logic
 def generate_number():
     digits = list("0123456789")
     random.shuffle(digits)
